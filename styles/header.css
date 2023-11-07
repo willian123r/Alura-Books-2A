@@ -1,4 +1,4 @@
-cabecalho-menu-hamburger {
+.cabecalho-menu-hamburger {
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
@@ -30,5 +30,30 @@ cabecalho-menu-hamburger {
     top: 100%;
     width: 60vw;
 }
-# Alura-Books-2A
-Projeto desenvolvido com auxílio do curso HTML e CSS: Responsividade com Mobile-First da plataforma Alura
+
+.container-botao :checked ~.lista-menu {
+    display: block;
+}
+
+.lista-menu-titulo,
+.lista-menu-item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu-titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu-link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.container-botao {
+    display: none;
+}
