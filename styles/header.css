@@ -30,30 +30,5 @@ cabecalho-menu-hamburger {
     top: 100%;
     width: 60vw;
 }
-
-.container-botao :checked ~.lista-menu {
-    display: block;
-}
-
-.lista-menu-titulo,
-.lista-menu-item {
-    padding: 1em;
-    background-color: var(--branco);
-}
-
-.lista-menu-titulo {
-    color: var(--laranja);
-    font-weight: 700;
-}
-
-.lista-menu-link {
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
-
-.container-botao {
-    display: none;
-}
+# Alura-Books-2A
+Projeto desenvolvido com auxílio do curso HTML e CSS: Responsividade com Mobile-First da plataforma Alura
